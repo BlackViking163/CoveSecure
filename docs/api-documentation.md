@@ -733,7 +733,4 @@ curl -X PUT "https://your-domain.com/api/v1/risks/123" \
 
 For additional API support or questions, please contact the development team or refer to the main documentation.
 
-**API Version**: 1.0  
-**Last Updated**: January 2024  
-**Next Review**: April 2024
-
+**API Version**: 1.0
