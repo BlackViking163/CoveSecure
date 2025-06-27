@@ -631,6 +631,6 @@ def delete_user(id):
 
 # --- Run App ---
 if __name__ == "__main__":
-    app_logger.info("GRC Risk Register application starting...")
+    app_logger.info("CoveSecure application starting...")
     app.run(host="0.0.0.0", debug=False)
 
