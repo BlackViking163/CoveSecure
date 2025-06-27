@@ -728,7 +728,5 @@ A: Yes, the export features provide data in formats suitable for compliance repo
 
 For additional support or questions not covered in this manual, please contact your system administrator or support team.
 
-**Document Version**: 2.0  
-**Last Updated**: January 2024  
-**Next Review**: July 2024
+**Document Version**: 2.0
 
