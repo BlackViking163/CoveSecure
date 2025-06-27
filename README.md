@@ -1,6 +1,6 @@
 # CoveSecure - GRC Risk Register Web App
 
-**CoveSecure** is an advanced Governance, Risk, and Compliance (GRC) Risk Register web application, built with Flask. Designed for enterprise-grade use, it offers strong security, role-based access, insightful analytics, and seamless deployment with Docker and CI/CD pipelines.
+**CoveSecure** is an advanced GRC Risk Register web application, built with Flask. Designed for enterprise-grade use, it offers strong security, role-based access, insightful analytics, and seamless deployment with Docker and CI/CD pipelines.
 
 ---
 
