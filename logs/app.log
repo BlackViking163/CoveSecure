@@ -1,0 +1,279 @@
+2025-06-27 00:32:03,114 - grc_app - INFO - <module>:634 - GRC Risk Register application starting...
+2025-06-27 00:32:41,171 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:32:41,171 - grc_app - WARNING - decorated_function:210 - Unauthorized access attempt to index
+2025-06-27 00:32:41,172 - grc_app - INFO - after_request:87 - Request completed: GET / - 302 - 0.001s
+2025-06-27 00:32:41,300 - grc_app - INFO - before_request:81 - Request started: GET /login
+2025-06-27 00:32:41,341 - grc_app - INFO - after_request:87 - Request completed: GET /login - 200 - 0.041s
+2025-06-27 00:32:41,768 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:32:41,964 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 200 - 0.197s
+2025-06-27 00:32:42,146 - grc_app - INFO - before_request:81 - Request started: GET /favicon.ico
+2025-06-27 00:32:42,146 - grc_app - WARNING - not_found_error:93 - 404 error: /favicon.ico
+2025-06-27 00:32:42,252 - grc_app - ERROR - internal_error:98 - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-06-27 00:32:48,812 - grc_app - INFO - before_request:81 - Request started: POST /login
+2025-06-27 00:32:48,813 - grc_app - INFO - login:234 - Login attempt for user: admin
+2025-06-27 00:32:49,100 - grc_app - INFO - log_action:201 - User action logged: admin - Logged in
+2025-06-27 00:32:49,100 - grc_app - INFO - login:245 - Successful login for user: admin
+2025-06-27 00:32:49,101 - grc_app - INFO - after_request:87 - Request completed: POST /login - 302 - 0.289s
+2025-06-27 00:32:49,150 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:32:49,151 - grc_app - INFO - index:313 - Dashboard loaded with 0 risks for user: admin
+2025-06-27 00:32:49,216 - grc_app - INFO - after_request:87 - Request completed: GET / - 200 - 0.066s
+2025-06-27 00:32:49,476 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:32:49,482 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.006s
+2025-06-27 00:32:49,487 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:32:49,529 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 200 - 0.042s
+2025-06-27 00:32:49,547 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:32:49,548 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 200 - 0.001s
+2025-06-27 00:32:56,400 - grc_app - INFO - before_request:81 - Request started: GET /users
+2025-06-27 00:32:56,401 - grc_app - INFO - manage_users:519 - User management accessed by admin
+2025-06-27 00:32:56,417 - grc_app - INFO - after_request:87 - Request completed: GET /users - 200 - 0.017s
+2025-06-27 00:32:56,619 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:32:56,621 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.002s
+2025-06-27 00:33:00,515 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:33:00,517 - grc_app - INFO - index:313 - Dashboard loaded with 0 risks for user: admin
+2025-06-27 00:33:00,518 - grc_app - INFO - after_request:87 - Request completed: GET / - 200 - 0.002s
+2025-06-27 00:33:00,763 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:33:00,767 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.003s
+2025-06-27 00:33:00,770 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:33:00,797 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 304 - 0.027s
+2025-06-27 00:33:01,670 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:33:01,672 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 304 - 0.002s
+2025-06-27 00:33:13,819 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:33:13,826 - grc_app - INFO - index:313 - Dashboard loaded with 0 risks for user: admin
+2025-06-27 00:33:13,827 - grc_app - INFO - after_request:87 - Request completed: GET / - 200 - 0.008s
+2025-06-27 00:33:14,100 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:33:14,107 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.007s
+2025-06-27 00:33:14,108 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:33:14,127 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 304 - 0.019s
+2025-06-27 00:33:14,825 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:33:14,826 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 304 - 0.002s
+2025-06-27 00:33:17,804 - grc_app - INFO - before_request:81 - Request started: GET /add
+2025-06-27 00:33:18,051 - grc_app - INFO - after_request:87 - Request completed: GET /add - 200 - 0.247s
+2025-06-27 00:33:18,325 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:33:18,327 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.002s
+2025-06-27 00:33:57,433 - grc_app - INFO - before_request:81 - Request started: POST /add
+2025-06-27 00:33:57,452 - grc_app - INFO - log_action:201 - User action logged: admin - Added risk: Non-compliance with PCI DSS Standards
+2025-06-27 00:33:57,453 - grc_app - INFO - add_risk:363 - Risk added by admin: Non-compliance with PCI DSS Standards
+2025-06-27 00:33:57,454 - grc_app - INFO - after_request:87 - Request completed: POST /add - 302 - 0.021s
+2025-06-27 00:33:57,541 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:33:57,555 - grc_app - INFO - index:313 - Dashboard loaded with 1 risks for user: admin
+2025-06-27 00:33:57,555 - grc_app - INFO - after_request:87 - Request completed: GET / - 200 - 0.015s
+2025-06-27 00:33:57,935 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:33:57,938 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:33:57,947 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.012s
+2025-06-27 00:33:57,963 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 304 - 0.025s
+2025-06-27 00:33:58,903 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:33:58,906 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 304 - 0.003s
+2025-06-27 00:34:06,524 - grc_app - INFO - before_request:81 - Request started: GET /logs
+2025-06-27 00:34:06,553 - grc_app - INFO - view_logs:502 - Logs viewed by admin
+2025-06-27 00:34:06,554 - grc_app - INFO - after_request:87 - Request completed: GET /logs - 200 - 0.029s
+2025-06-27 00:34:11,235 - grc_app - INFO - before_request:81 - Request started: GET /logs
+2025-06-27 00:34:11,236 - grc_app - INFO - view_logs:502 - Logs viewed by admin
+2025-06-27 00:34:11,236 - grc_app - INFO - after_request:87 - Request completed: GET /logs - 200 - 0.001s
+2025-06-27 00:34:15,959 - grc_app - INFO - before_request:81 - Request started: GET /export/pdf
+2025-06-27 00:34:15,965 - grc_app - INFO - log_action:201 - User action logged: admin - Exported data to PDF
+2025-06-27 00:34:15,965 - grc_app - INFO - export_pdf:484 - PDF export by admin
+2025-06-27 00:34:16,001 - grc_app - INFO - after_request:87 - Request completed: GET /export/pdf - 200 - 0.042s
+2025-06-27 00:34:18,284 - grc_app - INFO - before_request:81 - Request started: GET /export/pdf
+2025-06-27 00:34:18,289 - grc_app - INFO - log_action:201 - User action logged: admin - Exported data to PDF
+2025-06-27 00:34:18,293 - grc_app - INFO - export_pdf:484 - PDF export by admin
+2025-06-27 00:34:18,321 - grc_app - INFO - after_request:87 - Request completed: GET /export/pdf - 200 - 0.037s
+2025-06-27 00:36:51,304 - grc_app - INFO - before_request:81 - Request started: GET /users
+2025-06-27 00:36:51,306 - grc_app - INFO - manage_users:519 - User management accessed by admin
+2025-06-27 00:36:51,306 - grc_app - INFO - after_request:87 - Request completed: GET /users - 200 - 0.002s
+2025-06-27 00:36:51,672 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:36:51,674 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.002s
+2025-06-27 00:36:58,998 - grc_app - INFO - before_request:81 - Request started: GET /export/excel
+2025-06-27 00:36:59,666 - grc_app - INFO - log_action:201 - User action logged: admin - Exported data to Excel
+2025-06-27 00:36:59,667 - grc_app - INFO - export_excel:455 - Excel export by admin
+2025-06-27 00:36:59,687 - grc_app - INFO - after_request:87 - Request completed: GET /export/excel - 200 - 0.690s
+2025-06-27 00:39:44,349 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:39:44,350 - grc_app - WARNING - decorated_function:210 - Unauthorized access attempt to index
+2025-06-27 00:39:44,351 - grc_app - INFO - after_request:87 - Request completed: GET / - 302 - 0.001s
+2025-06-27 00:39:44,538 - grc_app - INFO - before_request:81 - Request started: GET /login
+2025-06-27 00:39:44,539 - grc_app - INFO - after_request:87 - Request completed: GET /login - 200 - 0.001s
+2025-06-27 00:39:45,232 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:39:45,234 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 200 - 0.002s
+2025-06-27 00:39:45,343 - grc_app - INFO - before_request:81 - Request started: GET /favicon.ico
+2025-06-27 00:39:45,344 - grc_app - WARNING - not_found_error:93 - 404 error: /favicon.ico
+2025-06-27 00:39:45,403 - grc_app - ERROR - internal_error:98 - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-06-27 00:39:53,203 - grc_app - INFO - before_request:81 - Request started: POST /login
+2025-06-27 00:39:53,203 - grc_app - INFO - login:234 - Login attempt for user: admin
+2025-06-27 00:39:53,514 - grc_app - INFO - log_action:201 - User action logged: admin - Logged in
+2025-06-27 00:39:53,514 - grc_app - INFO - login:245 - Successful login for user: admin
+2025-06-27 00:39:53,515 - grc_app - INFO - after_request:87 - Request completed: POST /login - 302 - 0.312s
+2025-06-27 00:39:53,550 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:39:53,551 - grc_app - INFO - index:313 - Dashboard loaded with 1 risks for user: admin
+2025-06-27 00:39:53,552 - grc_app - INFO - after_request:87 - Request completed: GET / - 200 - 0.002s
+2025-06-27 00:39:53,777 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:39:53,779 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.002s
+2025-06-27 00:39:53,781 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:39:53,798 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 200 - 0.017s
+2025-06-27 00:39:57,120 - grc_app - INFO - before_request:81 - Request started: GET /users
+2025-06-27 00:39:57,122 - grc_app - INFO - manage_users:519 - User management accessed by admin
+2025-06-27 00:39:57,128 - grc_app - INFO - after_request:87 - Request completed: GET /users - 200 - 0.008s
+2025-06-27 00:39:57,416 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:39:57,417 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.002s
+2025-06-27 00:40:00,977 - grc_app - INFO - before_request:81 - Request started: GET /users/add
+2025-06-27 00:40:00,991 - grc_app - INFO - after_request:87 - Request completed: GET /users/add - 200 - 0.015s
+2025-06-27 00:40:01,252 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:40:01,253 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.001s
+2025-06-27 00:40:07,660 - grc_app - INFO - before_request:81 - Request started: POST /users/add
+2025-06-27 00:40:07,916 - grc_app - INFO - log_action:201 - User action logged: admin - Created user MSelim
+2025-06-27 00:40:07,917 - grc_app - INFO - add_user:555 - User MSelim created by admin
+2025-06-27 00:40:07,917 - grc_app - INFO - after_request:87 - Request completed: POST /users/add - 302 - 0.256s
+2025-06-27 00:40:07,962 - grc_app - INFO - before_request:81 - Request started: GET /users
+2025-06-27 00:40:07,965 - grc_app - INFO - manage_users:519 - User management accessed by admin
+2025-06-27 00:40:07,965 - grc_app - INFO - after_request:87 - Request completed: GET /users - 200 - 0.003s
+2025-06-27 00:40:08,154 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:40:08,161 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.007s
+2025-06-27 00:40:12,329 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:40:12,330 - grc_app - INFO - index:313 - Dashboard loaded with 1 risks for user: admin
+2025-06-27 00:40:12,331 - grc_app - INFO - after_request:87 - Request completed: GET / - 200 - 0.002s
+2025-06-27 00:40:12,582 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:40:12,590 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.007s
+2025-06-27 00:40:12,592 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:40:12,597 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 200 - 0.005s
+2025-06-27 00:40:15,663 - grc_app - INFO - before_request:81 - Request started: GET /logout
+2025-06-27 00:40:15,666 - grc_app - INFO - log_action:201 - User action logged: admin - Logged out
+2025-06-27 00:40:15,666 - grc_app - INFO - logout:262 - User logged out: admin
+2025-06-27 00:40:15,672 - grc_app - INFO - after_request:87 - Request completed: GET /logout - 302 - 0.008s
+2025-06-27 00:40:15,733 - grc_app - INFO - before_request:81 - Request started: GET /login
+2025-06-27 00:40:15,740 - grc_app - INFO - after_request:87 - Request completed: GET /login - 200 - 0.007s
+2025-06-27 00:40:16,197 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:40:16,199 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.002s
+2025-06-27 00:40:20,100 - grc_app - INFO - before_request:81 - Request started: POST /login
+2025-06-27 00:40:20,105 - grc_app - INFO - login:234 - Login attempt for user: MSelim
+2025-06-27 00:40:20,331 - grc_app - INFO - log_action:201 - User action logged: MSelim - Logged in
+2025-06-27 00:40:20,331 - grc_app - INFO - login:245 - Successful login for user: MSelim
+2025-06-27 00:40:20,332 - grc_app - INFO - after_request:87 - Request completed: POST /login - 302 - 0.232s
+2025-06-27 00:40:20,372 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:40:20,373 - grc_app - INFO - index:313 - Dashboard loaded with 1 risks for user: MSelim
+2025-06-27 00:40:20,374 - grc_app - INFO - after_request:87 - Request completed: GET / - 200 - 0.002s
+2025-06-27 00:40:20,592 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:40:20,594 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.002s
+2025-06-27 00:40:20,625 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:40:20,628 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 304 - 0.003s
+2025-06-27 00:40:23,594 - grc_app - INFO - before_request:81 - Request started: GET /users
+2025-06-27 00:40:23,596 - grc_app - INFO - manage_users:519 - User management accessed by MSelim
+2025-06-27 00:40:23,597 - grc_app - INFO - after_request:87 - Request completed: GET /users - 200 - 0.002s
+2025-06-27 00:40:23,939 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:40:23,942 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.003s
+2025-06-27 00:40:29,462 - grc_app - INFO - before_request:81 - Request started: GET /user/delete/1
+2025-06-27 00:40:29,463 - grc_app - WARNING - not_found_error:93 - 404 error: /user/delete/1
+2025-06-27 00:40:29,493 - grc_app - ERROR - internal_error:98 - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-06-27 00:40:42,972 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:40:42,974 - grc_app - INFO - index:313 - Dashboard loaded with 1 risks for user: MSelim
+2025-06-27 00:40:42,975 - grc_app - INFO - after_request:87 - Request completed: GET / - 200 - 0.003s
+2025-06-27 00:40:43,212 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:40:43,221 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:40:43,222 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.010s
+2025-06-27 00:40:43,223 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 304 - 0.002s
+2025-06-27 00:40:46,301 - grc_app - INFO - before_request:81 - Request started: GET /logout
+2025-06-27 00:40:46,303 - grc_app - INFO - log_action:201 - User action logged: MSelim - Logged out
+2025-06-27 00:40:46,304 - grc_app - INFO - logout:262 - User logged out: MSelim
+2025-06-27 00:40:46,304 - grc_app - INFO - after_request:87 - Request completed: GET /logout - 302 - 0.004s
+2025-06-27 00:40:46,353 - grc_app - INFO - before_request:81 - Request started: GET /login
+2025-06-27 00:40:46,354 - grc_app - INFO - after_request:87 - Request completed: GET /login - 200 - 0.001s
+2025-06-27 00:40:46,737 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:40:46,739 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.003s
+2025-06-27 00:40:49,509 - grc_app - INFO - before_request:81 - Request started: POST /login
+2025-06-27 00:40:49,509 - grc_app - INFO - login:234 - Login attempt for user: admin
+2025-06-27 00:40:49,749 - grc_app - INFO - log_action:201 - User action logged: admin - Logged in
+2025-06-27 00:40:49,749 - grc_app - INFO - login:245 - Successful login for user: admin
+2025-06-27 00:40:49,749 - grc_app - INFO - after_request:87 - Request completed: POST /login - 302 - 0.241s
+2025-06-27 00:40:49,784 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:40:49,785 - grc_app - INFO - index:313 - Dashboard loaded with 1 risks for user: admin
+2025-06-27 00:40:49,786 - grc_app - INFO - after_request:87 - Request completed: GET / - 200 - 0.002s
+2025-06-27 00:40:50,026 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:40:50,029 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:40:50,032 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.006s
+2025-06-27 00:40:50,034 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 304 - 0.004s
+2025-06-27 00:40:52,840 - grc_app - INFO - before_request:81 - Request started: GET /users
+2025-06-27 00:40:52,842 - grc_app - INFO - manage_users:519 - User management accessed by admin
+2025-06-27 00:40:52,849 - grc_app - INFO - after_request:87 - Request completed: GET /users - 200 - 0.008s
+2025-06-27 00:40:53,280 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:40:53,282 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.002s
+2025-06-27 00:40:57,070 - grc_app - INFO - before_request:81 - Request started: GET /user/delete/2
+2025-06-27 00:40:57,071 - grc_app - WARNING - not_found_error:93 - 404 error: /user/delete/2
+2025-06-27 00:40:57,086 - grc_app - ERROR - internal_error:98 - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-06-27 00:44:43,132 - grc_app - INFO - <module>:634 - GRC Risk Register application starting...
+2025-06-27 00:44:53,705 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:44:53,705 - grc_app - WARNING - decorated_function:210 - Unauthorized access attempt to index
+2025-06-27 00:44:53,707 - grc_app - INFO - after_request:87 - Request completed: GET / - 302 - 0.002s
+2025-06-27 00:44:53,972 - grc_app - INFO - before_request:81 - Request started: GET /login
+2025-06-27 00:44:53,988 - grc_app - INFO - after_request:87 - Request completed: GET /login - 200 - 0.016s
+2025-06-27 00:44:54,367 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:44:54,479 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.112s
+2025-06-27 00:44:57,469 - grc_app - INFO - before_request:81 - Request started: POST /login
+2025-06-27 00:44:57,469 - grc_app - INFO - login:234 - Login attempt for user: admin
+2025-06-27 00:44:57,777 - grc_app - INFO - log_action:201 - User action logged: admin - Logged in
+2025-06-27 00:44:57,777 - grc_app - INFO - login:245 - Successful login for user: admin
+2025-06-27 00:44:57,778 - grc_app - INFO - after_request:87 - Request completed: POST /login - 302 - 0.309s
+2025-06-27 00:44:57,864 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:44:57,865 - grc_app - INFO - index:313 - Dashboard loaded with 1 risks for user: admin
+2025-06-27 00:44:57,882 - grc_app - INFO - after_request:87 - Request completed: GET / - 200 - 0.018s
+2025-06-27 00:44:58,408 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:44:58,413 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.005s
+2025-06-27 00:44:58,424 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:44:58,437 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 304 - 0.013s
+2025-06-27 00:45:01,620 - grc_app - INFO - before_request:81 - Request started: GET /users
+2025-06-27 00:45:01,621 - grc_app - INFO - manage_users:519 - User management accessed by admin
+2025-06-27 00:45:01,626 - grc_app - INFO - after_request:87 - Request completed: GET /users - 200 - 0.006s
+2025-06-27 00:45:02,103 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:45:02,105 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.002s
+2025-06-27 00:45:05,236 - grc_app - INFO - before_request:81 - Request started: GET /user/delete/2
+2025-06-27 00:45:05,237 - grc_app - WARNING - not_found_error:93 - 404 error: /user/delete/2
+2025-06-27 00:45:05,259 - grc_app - ERROR - internal_error:98 - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-06-27 00:46:07,142 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:46:07,143 - grc_app - INFO - index:313 - Dashboard loaded with 1 risks for user: admin
+2025-06-27 00:46:07,144 - grc_app - INFO - after_request:87 - Request completed: GET / - 200 - 0.002s
+2025-06-27 00:46:07,634 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:46:07,637 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.003s
+2025-06-27 00:46:07,673 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:46:07,678 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 304 - 0.005s
+2025-06-27 00:54:37,695 - grc_app - INFO - before_request:81 - Request started: GET /users
+2025-06-27 00:54:37,700 - grc_app - INFO - manage_users:519 - User management accessed by admin
+2025-06-27 00:54:37,702 - grc_app - INFO - after_request:87 - Request completed: GET /users - 200 - 0.007s
+2025-06-27 00:54:38,066 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:54:38,068 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 200 - 0.002s
+2025-06-27 00:54:40,755 - grc_app - INFO - before_request:81 - Request started: GET /users/edit/1
+2025-06-27 00:54:40,771 - grc_app - INFO - after_request:87 - Request completed: GET /users/edit/1 - 200 - 0.016s
+2025-06-27 00:54:41,135 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:54:41,136 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.001s
+2025-06-27 00:54:48,609 - grc_app - INFO - before_request:81 - Request started: POST /users/edit/1
+2025-06-27 00:54:48,900 - grc_app - INFO - log_action:201 - User action logged: admin - Updated user admin
+2025-06-27 00:54:48,901 - grc_app - INFO - edit_user:594 - User admin updated by admin
+2025-06-27 00:54:48,902 - grc_app - INFO - after_request:87 - Request completed: POST /users/edit/1 - 302 - 0.292s
+2025-06-27 00:54:48,979 - grc_app - INFO - before_request:81 - Request started: GET /users
+2025-06-27 00:54:48,982 - grc_app - INFO - manage_users:519 - User management accessed by admin
+2025-06-27 00:54:48,983 - grc_app - INFO - after_request:87 - Request completed: GET /users - 200 - 0.004s
+2025-06-27 00:54:49,282 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:54:49,283 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.002s
+2025-06-27 00:54:53,502 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:54:53,504 - grc_app - INFO - index:313 - Dashboard loaded with 1 risks for user: admin
+2025-06-27 00:54:53,509 - grc_app - INFO - after_request:87 - Request completed: GET / - 200 - 0.006s
+2025-06-27 00:54:53,806 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:54:53,811 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.005s
+2025-06-27 00:54:53,833 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:54:53,840 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 200 - 0.007s
+2025-06-27 00:54:54,881 - grc_app - INFO - before_request:81 - Request started: GET /logout
+2025-06-27 00:54:54,882 - grc_app - INFO - log_action:201 - User action logged: admin - Logged out
+2025-06-27 00:54:54,882 - grc_app - INFO - logout:262 - User logged out: admin
+2025-06-27 00:54:54,883 - grc_app - INFO - after_request:87 - Request completed: GET /logout - 302 - 0.002s
+2025-06-27 00:54:54,954 - grc_app - INFO - before_request:81 - Request started: GET /login
+2025-06-27 00:54:54,960 - grc_app - INFO - after_request:87 - Request completed: GET /login - 200 - 0.006s
+2025-06-27 00:54:55,181 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:54:55,183 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.002s
+2025-06-27 00:54:59,066 - grc_app - INFO - before_request:81 - Request started: POST /login
+2025-06-27 00:54:59,067 - grc_app - INFO - login:234 - Login attempt for user: admin
+2025-06-27 00:54:59,300 - grc_app - INFO - log_action:201 - User action logged: admin - Logged in
+2025-06-27 00:54:59,300 - grc_app - INFO - login:245 - Successful login for user: admin
+2025-06-27 00:54:59,301 - grc_app - INFO - after_request:87 - Request completed: POST /login - 302 - 0.235s
+2025-06-27 00:54:59,347 - grc_app - INFO - before_request:81 - Request started: GET /
+2025-06-27 00:54:59,349 - grc_app - INFO - index:313 - Dashboard loaded with 1 risks for user: admin
+2025-06-27 00:54:59,350 - grc_app - INFO - after_request:87 - Request completed: GET / - 200 - 0.003s
+2025-06-27 00:54:59,550 - grc_app - INFO - before_request:81 - Request started: GET /static/css/style.css
+2025-06-27 00:54:59,552 - grc_app - INFO - before_request:81 - Request started: GET /static/js/charts.min.js
+2025-06-27 00:54:59,554 - grc_app - INFO - after_request:87 - Request completed: GET /static/css/style.css - 304 - 0.004s
+2025-06-27 00:54:59,559 - grc_app - INFO - after_request:87 - Request completed: GET /static/js/charts.min.js - 304 - 0.006s
+2025-06-27 01:01:19,054 - grc_app - INFO - <module>:634 - GRC Risk Register application starting...
