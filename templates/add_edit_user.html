@@ -1,0 +1,43 @@
+<!-- templates/add_edit_user.html-->
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ action }} User</title>
+        <link rel="stylesheet" href="/static/css/style.css">
+    </head>
+    <body>
+        <h1>{{ action }} User</h1>
+        <p><a href="/users"> Back to User List</a></p>
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <ul class=flashes>
+        {% for message in messages %}
+            <li>{{ message }}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+        {% endwith %}
+        <form method="POST">
+            <label>Username:
+                <input type="text" name="username" value="{{ user.username if user else '' }}"
+                {% if action == 'Edit' %}
+                readonly{% endif %} required>
+            </label><br>
+
+            <label>Password:
+                <input type="password" name="password" {% if action == 'Add' %}required{% endif %}>
+                {% if action == 'Edit'%}<small>(Leave blank to keep current password)</small>{% endif %}
+            </label><br>
+
+            <label>Role:
+                <select name="role"required>
+                    <option value="user" {% if user and user.role == 'user'%}selected{% endif %}>User</option>
+                    <option value="admin" {% if user and user.role == 'admin' %}selected{% endif %}>Admin</option>
+                </select>
+            </label><br>
+            <button type="submit">{{ action }} User</button>
+        </form>
+    </body>
+ </html>
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ action }} Risk - GRC Risk Register</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body style="background: var(--background-secondary); padding: 2rem 1rem;">
+    <div class="form-container">
+        <h2>{{ action }} Risk</h2>
+        <p style="text-align: center; color: var(--text-secondary); margin-bottom: 1.5rem;">
+            {% if action == 'Add' %}
+                Create a new risk entry in the register
+            {% else %}
+                Update the existing risk information
+            {% endif %}
+        </p>
+        
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="flash-message error">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        
+        <form method="POST">
+            <label for="description">Risk Description</label>
+            <textarea id="description" name="description" required placeholder="Describe the risk in detail..." rows="3">{{ risk.description if risk else '' }}</textarea>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                <div>
+                    <label for="impact">Impact (1-5)</label>
+                    <select id="impact" name="impact" required>
+                        <option value="">Select Impact</option>
+                        <option value="1" {% if risk and risk.impact == 1 %}selected{% endif %}>1 - Very Low</option>
+                        <option value="2" {% if risk and risk.impact == 2 %}selected{% endif %}>2 - Low</option>
+                        <option value="3" {% if risk and risk.impact == 3 %}selected{% endif %}>3 - Medium</option>
+                        <option value="4" {% if risk and risk.impact == 4 %}selected{% endif %}>4 - High</option>
+                        <option value="5" {% if risk and risk.impact == 5 %}selected{% endif %}>5 - Very High</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="likelihood">Likelihood (1-5)</label>
+                    <select id="likelihood" name="likelihood" required>
+                        <option value="">Select Likelihood</option>
+                        <option value="1" {% if risk and risk.likelihood == 1 %}selected{% endif %}>1 - Very Low</option>
+                        <option value="2" {% if risk and risk.likelihood == 2 %}selected{% endif %}>2 - Low</option>
+                        <option value="3" {% if risk and risk.likelihood == 3 %}selected{% endif %}>3 - Medium</option>
+                        <option value="4" {% if risk and risk.likelihood == 4 %}selected{% endif %}>4 - High</option>
+                        <option value="5" {% if risk and risk.likelihood == 5 %}selected{% endif %}>5 - Very High</option>
+                    </select>
+                </div>
+            </div>
+            
+            <label for="control">Control Measures</label>
+            <input type="text" id="control" name="control" value="{{ risk.control if risk else '' }}" placeholder="Describe control measures...">
+            
+            <label for="status">Status</label>
+            <select id="status" name="status" required>
+                <option value="">Select Status</option>
+                <option value="Open" {% if risk and risk.status == 'Open' %}selected{% endif %}>Open</option>
+                <option value="In Progress" {% if risk and risk.status == 'In Progress' %}selected{% endif %}>In Progress</option>
+                <option value="Closed" {% if risk and risk.status == 'Closed' %}selected{% endif %}>Closed</option>
+            </select>
+            
+            <div style="display: flex; gap: 0.5rem; margin-top: 1rem;">
+                <button type="submit" class="btn btn-primary" style="flex: 1;">{{ action }} Risk</button>
+                <a href="/" class="btn btn-secondary" style="flex: 1; text-align: center; text-decoration: none;">Cancel</a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // Calculate and display risk score in real-time
+        function updateRiskScore() {
+            const impact = document.getElementById('impact').value;
+            const likelihood = document.getElementById('likelihood').value;
+            
+            if (impact && likelihood) {
+                const score = parseInt(impact) * parseInt(likelihood);
+                let level = 'Low';
+                if (score >= 15) level = 'High';
+                else if (score >= 8) level = 'Medium';
+                
+                // Show calculated score
+                let scoreDisplay = document.getElementById('score-display');
+                if (!scoreDisplay) {
+                    scoreDisplay = document.createElement('div');
+                    scoreDisplay.id = 'score-display';
+                    scoreDisplay.style.cssText = 'margin-top: 1rem; padding: 0.75rem; background: var(--background-secondary); border-radius: var(--radius-md); text-align: center; font-weight: 500;';
+                    document.querySelector('form').insertBefore(scoreDisplay, document.querySelector('button').parentNode);
+                }
+                scoreDisplay.innerHTML = `<strong>Calculated Risk Score: ${score} (${level})</strong>`;
+            }
+        }
+        
+        document.getElementById('impact').addEventListener('change', updateRiskScore);
+        document.getElementById('likelihood').addEventListener('change', updateRiskScore);
+        
+        // Initial calculation if editing
+        updateRiskScore();
+    </script>
+</body>
+</html>
+

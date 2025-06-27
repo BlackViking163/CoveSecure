@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - GRC Risk Register</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="login">
+    <div class="form-container">
+        <h2>Welcome Back</h2>
+        <p style="text-align: center; color: var(--text-secondary); margin-bottom: 1.5rem;">
+            Sign in to your GRC Risk Register account
+        </p>
+        
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="flash-message error">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        
+        <form method="POST">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required autocomplete="username" placeholder="Enter your username">
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required autocomplete="current-password" placeholder="Enter your password">
+            
+            <button type="submit">Sign In</button>
+        </form>
+        
+        <div style="text-align: center; margin-top: 1rem; font-size: 0.875rem; color: var(--text-secondary);">
+            Default credentials: admin / admin123
+        </div>
+    </div>
+</body>
+</html>
+
