@@ -43,7 +43,7 @@
 - Modern browser (Chrome/Firefox/Edge)
 
 ### Dependencies
-See [`requirements.txt`](./requirements.txt) and [`requirements-dev.txt`](./requirements-dev.txt) for full list.
+See [`requirements.txt`](./requirements.txt) for full list.
 
 ---
 
@@ -64,14 +64,6 @@ python app.py
 ```bash
 docker-compose up --build
 ```
-
-### Development
-```bash
-pip install -r requirements.txt
-pip install -r requirements-dev.txt
-pytest
-```
-
 ---
 
 ## Default Admin Login
@@ -153,14 +145,6 @@ All visualized using Chart.js with real-time backend data.
 ├── docs/                  # Documentation
 ├── .github/workflows/     # CI/CD GitHub Actions
 ```
-
----
-
-## Contributing
-- Fork ➝ Create branch ➝ Code ➝ Test ➝ PR
-- Keep 90%+ test coverage
-- Adhere to PEP8, security and style checks
-
 ---
 
 ## License
