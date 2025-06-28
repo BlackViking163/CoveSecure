@@ -1,0 +1,18 @@
+# Logs
+*.log
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS/Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Coverage/Reports
+htmlcov/
+coverage.xml
