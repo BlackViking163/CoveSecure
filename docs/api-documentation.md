@@ -1,8 +1,8 @@
-# GRC Risk Register - API Documentation
+# CoveSecure - API Documentation
 
 ## Overview
 
-The GRC Risk Register provides a RESTful API for programmatic access to risk management functionality. This API enables integration with other systems, automated reporting, and custom applications.
+The CoveSecure provides a RESTful API for programmatic access to risk management functionality. This API enables integration with other systems, automated reporting, and custom applications.
 
 ## Base URL
 
