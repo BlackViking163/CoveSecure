@@ -1,4 +1,4 @@
-# GRC Risk Register - User Manual
+# CoveSecure - User Manual
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@
 
 ## Introduction
 
-The GRC Risk Register is a comprehensive web-based application designed to help organizations manage their governance, risk, and compliance requirements. This application provides a centralized platform for identifying, assessing, tracking, and reporting on organizational risks.
+The CoveSecure is a comprehensive web-based application designed to help organizations manage their governance, risk, and compliance requirements. This application provides a centralized platform for identifying, assessing, tracking, and reporting on organizational risks.
 
 ### Key Benefits
 
@@ -38,7 +38,7 @@ The GRC Risk Register is a comprehensive web-based application designed to help 
 
 ### System Requirements
 
-Before using the GRC Risk Register, ensure your system meets the following requirements:
+Before using the CoveSecure, ensure your system meets the following requirements:
 
 - **Web Browser**: Modern browser (Chrome 90+, Firefox 88+, Safari 14+, Edge 90+)
 - **Internet Connection**: Stable internet connection for web-based access
@@ -725,8 +725,3 @@ A: The system supports ISO 27001 risk management requirements through systematic
 A: Yes, the export features provide data in formats suitable for compliance reporting. Custom reports may be available through data export and analysis.
 
 ---
-
-For additional support or questions not covered in this manual, please contact your system administrator or support team.
-
-**Document Version**: 2.0
-
